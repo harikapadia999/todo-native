@@ -3,7 +3,13 @@ import { Text, View } from "react-native";
 
 const SettingScreen = () => {
   return (
-    <View>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <Text>SettingScreen</Text>
     </View>
   );
